@@ -1,0 +1,42 @@
+body {
+    background-color: hsl(219, 79%, 66%);
+  }
+  
+  main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #svgContainer {
+    background-color: wheat;
+    padding: 30px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: white;
+  }
+  
+  .bar {
+    background-color: #435d8a;
+    border-color: #435d8a;
+    fill: #435d8a;
+  }
+  
+  .bar:hover {
+    fill: #2a3954;
+    cursor: pointer;
+  }
+  
+  g {
+    color: #2a3954;
+  }
+  
+  #tooltip {
+    margin-top: 10px;
+    color: #feffff;
+    font-size: 28px;
+    text-align: center;
+  }
